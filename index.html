@@ -8,9 +8,10 @@
         .main{
             /* border: 2px solid red; */
             width: 600px;
-            height: 440px;
+            height: 400px;
             background-image: url(https://media.gettyimages.com/id/169938282/photo/dubai-speed-motion.jpg?s=612x612&w=gi&k=20&c=aKhtm561XkcUchXX0IEIceYNrE9CQ3a7oH3oYsKvn0Q= );
             background-repeat: no-repeat;
+        
         
         }
         h1{
@@ -43,22 +44,35 @@
         border-radius: 5px;
 
         }
+            .term{
+                font-size: small;
+                text-decoration: underline;
+                color: rgb(94, 90, 90);
+            }
+            .with{
+                font-size:1.5cap;
+                color: rgb(104, 95, 95);
+
+                /* color: rgb(155, 147, 147); */
+            }
             #agree{
-                height: 30px;
-                width: 100px;
+                margin-left: -110px;
+                
             }
     </style>
 </head>
 <body>
-    <a href="form2.html"><h1>Form2</a></h1>
     <center>
+    <a href="form2.html"><h1>Form2</a></h1>
+
     <div class="main">
     <div class="card">
         <h1>Login Form</h1>
 <br>
 <input type="email" name="email" id="email" placeholder="Your Email Adress "><br><br>
 <input type="password" name="password" id="password" placeholder="Your Password"> <br><br>
-<input type="checkbox" name="agree" id="agree" ><label for="">Agree with terms & Codition </label><br><br>
+<!-- <input type="checkbox" name="agree" id="agree" ><label for="">Agree with terms & Codition </label><br><br> -->
+<input type="checkbox" id="agree"><label for=" "><span class="with">Agree with</span> <span class="term"> Terms & Codition</span></label><br><br>
 
 <button class="login">login </button>
 
